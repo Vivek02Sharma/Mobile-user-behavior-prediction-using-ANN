@@ -144,8 +144,11 @@ Feel free to open an issue or pull request if you encounter any problems or have
 - **Streamlit**: A great framework for creating web applications.
 - **Keras/TensorFlow**: Used for training and building the neural network model.
 
+## 📒 Google Colab Notebook
 
+For a more interactive experience, you can also run the Mobile User Behavior Prediction models in a Google Colab notebook. [NOTEBOOK LINK](https://colab.research.google.com/drive/1UMZGGWVr5kCBiR--RiiGiScc4NZs7fX7?usp=sharing)
 
+This notebook allows you to experiment with the code and datasets without setting up a local environment.
 
 
 
