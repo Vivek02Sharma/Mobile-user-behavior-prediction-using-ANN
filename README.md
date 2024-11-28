@@ -1,4 +1,5 @@
 # Mobile User Behavior Prediction App
+![Mobile user group](https://github.com/user-attachments/assets/d9e6d278-d2ca-413a-9c4a-3e82cb877831)
 
 This **Streamlit** web application predicts user behavior based on mobile usage data. It uses a trained neural network model (ANN) to classify user behavior and display the results with an interactive interface.
 
@@ -150,5 +151,9 @@ For a more interactive experience, you can also run the Mobile User Behavior Pre
 
 This notebook allows you to experiment with the code and datasets without setting up a local environment.
 
+## 👨‍💻 Created By
 
+[Vivek Sharma](https://github.com/Vivek02Sharma).
+
+**Thank you** for checking out the project!
 
