@@ -96,8 +96,56 @@ pip install -r requirements.txt
 
 ### App Interface:
 
+![image](https://github.com/user-attachments/assets/33f98df8-f87a-468e-b423-5b4c8a940247)
 
 ### Prediction Results:
 
+![image](https://github.com/user-attachments/assets/753f03f6-20c5-493f-bf49-c10353a858de)
+
 ### Confusion Metrics:
+
+![confusion metrics](https://github.com/user-attachments/assets/0f4ec323-0c72-43fa-bd45-7db901d14087)
+
+## 🧑‍💻 How to Train the Model (Optional)
+If you'd like to retrain the model, follow these steps:
+
+1. Update the dataset in the `data/` folder (e.g., `user_behavior_dataset.csv`).
+2. Run the `train.py` script:
+```
+python train.py
+```
+
+This will retrain the model and save the updated `user_behavior_model.keras` and `scaler.pkl` files in the `model/` folder.
+
+## 🔄 Example
+
+### Input:
+```
+Operating System: Android
+Device Model: Google Pixel 5
+App Usage Time (min/day): 393
+Screen On Time (hours/day): 6.4
+Battery Drain (mAh/day): 1872
+Number of Apps Installed: 67
+Data Usage (MB/day): 1122
+Age: 40
+Gender: Male
+```
+### Output:
+```
+Predicted User Behavior Class: 4
+Progress Bar: (Colored based on the class, i.e., Orange for Class 4)
+```
+
+## 💬 Feedback & Contributions
+Feel free to open an issue or pull request if you encounter any problems or have suggestions for improvements.
+
+## 🎉 Acknowledgments
+- **Streamlit**: A great framework for creating web applications.
+- **Keras/TensorFlow**: Used for training and building the neural network model.
+
+
+
+
+
 
