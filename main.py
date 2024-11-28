@@ -9,10 +9,10 @@ model_folder = './model'
 model_filename = 'user_behavior_model.keras'
 model_path = os.path.join(model_folder, model_filename)
 model = load_model(model_path)
-print(model_path)
+# print(model_path)
 scaler_filename = 'scaler.pkl'
 scaler_path = os.path.join(model_folder, scaler_filename)
-print(scaler_path)
+# print(scaler_path)
 file = open(scaler_path, 'rb')
 scaler = pickle.load(file)
 
